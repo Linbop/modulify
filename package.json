@@ -1,7 +1,7 @@
 {
   "name": "@linbop/modulify",
   "repository": "https://github.com/Linbop/modulify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
   "license": "MIT",
   "bin": "./bin/index.js",
