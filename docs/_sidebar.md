@@ -1,0 +1,14 @@
+<!-- docs/_sidebar.md -->
+- **Home**
+  - [Why do we need modulify ?](/)
+  - [How it works ?](/how)
+  - [Examples](/examples)
+- **Get Started**
+  - [Prerequisite](/prerequistite)
+  - [Installation](/installation)
+  - [Configuration](/configuration)
+- **CLI**
+  - [help](/help)
+  - [build](/build)
+  - [call](/call)
+  - [script](/script)
