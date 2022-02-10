@@ -1,18 +1,16 @@
 {
   "name": "@linbop/modulify",
   "repository": "https://github.com/Linbop/modulify",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "src/index.js",
   "license": "MIT",
   "bin": "./bin/index.js",
-  "devDependencies": {
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "shelljs": "^0.8.5",
     "chokidar": "^3.5.3",
     "esbuild": "^0.14.18",
     "fs-extra": "^10.0.0",
     "yargs": "^17.3.1"
-  },
-  "dependencies": {
-    "chalk": "^5.0.0",
-    "shelljs": "^0.8.5"
   }
 }
