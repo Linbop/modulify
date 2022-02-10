@@ -6,5 +6,5 @@
 - Install concurrently and wait-on packages for modulify scripts
 
 ```bash
-yarn add modulify concurrently wait-on
+yarn add @linbop/modulify concurrently wait-on
 ```
