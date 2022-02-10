@@ -1,5 +1,5 @@
 {
-  "name": "modulify",
+  "name": "@linbop/modulify",
   "repository": "https://github.com/Linbop/modulify",
   "version": "1.0.0",
   "main": "src/index.js",
