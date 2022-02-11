@@ -1,7 +1,10 @@
 {
   "name": "@linbop/modulify",
   "repository": "https://github.com/Linbop/modulify",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "keywords": ["monorepo", "mono-repo", "typescript", "esbuild", "buil-tool"],
+  "description": "A tool for managing TS/JS monorepos",
+  "homepage": "https://linbop.github.io/modulify",
   "main": "src/index.js",
   "license": "MIT",
   "bin": "./bin/index.js",
