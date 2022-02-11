@@ -16,11 +16,6 @@ exports.handler = function (argv) {
 
   const config = getConfiguration(argv);
 
-  const paths = {
-    project: process.cwd(),
-    repo: path.join(process.cwd(), `${argv["source"]}`),
-  };
-
   let fn = config?.functions ? config.functions[argv["fn"]] : null;
 
   if (!fn) {
@@ -28,7 +23,7 @@ exports.handler = function (argv) {
   } else {
     fn({
       fs,
-      paths,
+      repoPath: path.join(process.cwd(), `${argv["source"]}`),
       shell,
     });
   }
